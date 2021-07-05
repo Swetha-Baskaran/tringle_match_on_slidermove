@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #2196f33b;
+    padding: 31px;
+}
+
+.lables {
+    position: relative;
+    text-transform: capitalize;
+    text-decoration: rgb(7, 7, 85);
+    font-weight: bold;
+}
+
+#lable {
+    position: absolute;
+}
+
+.a {
+    top: -245px;
+    left: 85px;
+}
+
+.b {
+    top: -43px;
+    left: 43px;
+}
+
+.c {
+    top: -44px;
+    right: 44px;
+}
+
+.d {
+    top: -215px;
+    left: 37px;
+}
+
+.e {
+    bottom: 110px;
+}
+
+.f {
+    bottom: 110px;
+    right: 0px;
+}
+
+.text {
+    font-family: system-ui;
+    font-weight: normal;
+    color: #07076e;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #f0ffb6;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.strip {
+    background: black;
+    position: absolute;
+}
+
+#s1 {
+    width: 200px;
+    height: 2px;
+    bottom: 100px;
+    z-index: 11111
+}
+
+#s2 {
+    width: 2px;
+    height: 225px;
+    transform: rotateZ(25deg);
+    top: -29px;
+    left: 6px;
+    z-index: 11111
+}
+
+#s3 {
+    width: 2px;
+    height: 300px;
+    right: 99px;
+    transform: rotateZ(-65deg);
+    top: -98px;
+    z-index: 11111
+}
+
+#s4 {
+    width: 136px;
+    height: 2px;
+    bottom: 25px;
+    left: 32px;
+    background: red;
+}
+
+#s5 {
+    width: 2.5px;
+    height: 200px;
+    transform: rotate3d(1, -5, 1, 50deg);
+    top: -22px;
+    left: 52px;
+    background: red;
+}
+
+#s6 {
+    width: 2px;
+    height: 300px;
+    right: 90px;
+    transform: rotate3d(0, 1, 1, -44deg);
+    top: -80px;
+    background: red;
+}
+
+.range_container {
+    position: relative;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 210px;
+    height: 10px;
+}
+
+.range::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background-color: darkgray;
+    border-radius: 0px;
+    width: 10px;
+    height: 5px;
+    border: 2px darkgray;
+}
+
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: rgb(7, 7, 85);
+    cursor: pointer;
+    color: wheat;
+    width: 3.1px;
+    height: 7px;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 0 6px rgb(7, 7, 85);
+}
